@@ -64,6 +64,8 @@ body {
   background: #fff;
   padding: 5px;
   margin-bottom: 5px;
+  /*10pxから5pxに変更*/
+
   display: inline-block;
 }
 
