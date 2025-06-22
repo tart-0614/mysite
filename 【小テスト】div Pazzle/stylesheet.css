@@ -55,18 +55,20 @@ body {
 }
 
 .orange-container {
-  position: absolute;
-  top: 40px;
-  left: 40px;
+  position: static;
+  margin: 40px 0 0 40px;
+  /*top、leftから変更*/
 }
 
 .orange-wrapper {
   background: #fff;
   padding: 5px;
-  margin-bottom: 5px;
-  /*10pxから5pxに変更*/
-
-  display: inline-block;
+  margin-bottom: 10px;
+  /*5pxから10pxに変更*/
+  display: block;
+  /*inline-block から block に変更*/
+  width: fit-content;
+  /*オレンジの幅にフィットさせる*/
 }
 
 .orange {
